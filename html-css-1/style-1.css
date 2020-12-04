@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box; 
+}
+
+
+/**HEADER CONTENT**/
+header {
+    padding: 100px 2px 30px 30px;
+    height:20%;
+    width: 99.85%; /*99.85 because on the mockup-1 there is a tiny sliver of white*/
+    border: 1px solid black;
+    background-color: rgb(236, 131, 130);
+}
+
+#welcome-message {
+    font-size:  45px;
+    font-weight: 900;
+    display: inline-block;
+}
+#home {
+    margin-left:46px;
+    font-size:  25px;
+    font-weight: 500;
+    display: inline-block;
+    
+}
+#about {
+    margin-left:60px;
+    font-size:  25px;
+    font-weight: 500;
+    display: inline-block;
+}
+#logout {
+    margin-left:60px;
+    font-size:  25px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/**MAIN CONTENT**/
+
+/**first dotted box css**/
+#first-dotted-box {
+    margin:1.5%;
+    padding:3% 3% 3% 3%;
+    height:40%;
+    width: 97%;
+    border: 5px dotted black;
+}
+
+
+#about-html{
+    margin-bottom: 10px;
+    font-size:  22px;
+    font-weight: 900;
+    display: block;
+}
+
+#html-img-description{
+    width:100%;
+    display: block;
+
+}
+
+#html-img {
+    margin: 0 6px 0 0;
+    display: inline-block;
+
+}
+#html-description {
+    width: 80%;
+    letter-spacing: 0.4px;
+    font-size:  17px;
+    font-weight: 540;
+    display: inline-block;
+
+}
+
+/**second dotted box css**/
+#second-dotted-box {
+    margin:1.5%;
+    padding:3% 3% 3% 3%;
+    height:360px;
+    width: 97%;
+    border: 5px dotted black;
+    
+}
+
+#about-CSS3{
+    margin-bottom: 20px;
+    font-size:  22px;
+    font-weight: 900;
+    display: block;
+}
+
+#CSS3-description{
+    width: 90%;
+    letter-spacing: 0.4px;
+    font-size:  17px;
+    font-weight: 540;
+    display: inline-block;
+}
+
+#css-img{
+    margin-bottom: 60px;
+    display: inline-block;
+
+}
