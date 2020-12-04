@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box; /*contains elements into box. this fixed elements going past container*/ 
+}
+/**HEADER CONTENT**/
+header{
+    padding:10px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(137, 252, 214);
+}
+
+#makin-shapes{
+    margin: 6px 10px 10px 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/**MAIN CONTENT**/
+main{
+    padding: 0px 30px 20px 20px;
+}
+/*For texts "Rectangles", "Circles*, and "Everything*/
+h3{
+    margin-top:20px;
+    font-size: 23px;
+    font-weight: 600;
+}
+/*Rectangles box & it's contents*/
+#rectangle-box{
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    border: 2px dashed black;
+
+}
+
+#purple-box{
+    margin-top: 45px;
+    
+    height: 90px;
+    width: 200px;
+    border: 4px solid 	#FA221C;
+    background-color: #48187F;
+    display: inline-block;
+}
+
+#blue-box{
+    margin-left: 20px;
+    height: 90px;
+    width: 90px;
+    border: 1px solid 	#000000;
+    background-color: #0035F8;
+    box-shadow: 5px 5px 5px 0px rgb(24, 24, 24); 
+    display: inline-block;
+    
+}
+
+#pink-box{
+    margin-left: 20px;
+    height: 160px;
+    width: 160px;
+    border: 1.5px solid 	#000000;
+    background-color: #D77493;
+    display: inline-block;
+}
+/*Circles box & it's contents*/
+#circles-box{
+    padding: 5px;
+    height: 260px;
+    width: 100%;
+    border: 2px dashed black;
+
+}
+
+#snowman-head{
+    margin-left: 40px;
+    padding-left: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1.5px solid 	#000000;
+    display:block;
+}
+
+#snowman-top{
+    margin-left: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1.5px solid 	#000000;
+    display:block;
+}
+
+#snowman-bottom{
+    margin-left: 20px;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 1.5px solid 	#000000;
+    display:block;
+}
+
+#carrot{
+    margin:0px 20px 20px 10px;
+    height:20px;
+}
+
+#rock{
+    float: left;
+    margin-top: 10px;
+    margin-left: 4px;
+    height:15px;
+}
+#rock2{
+    clear: both;
+    margin-top: 5px;
+    margin-left: 30px;
+    height:15px;
+    display:block;
+}
+
+/*Everything box & it's contents*/
+#everything-box{
+    padding: 10px;
+    height: 260px;
+    width: 100%;
+    border: 2px dashed black;
+
+}
+
+#beige-box{
+    height: 230px;
+    width: 230px;
+    border: 1.5px solid 	#000000;
+    background-color: #F5F4DE;
+    display: inline-block;
+}
+
+#green-circle{
+    padding: 20px;
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    border: 1.5px solid 	#000000;
+    background-color:#1C7D1A ;
+    display:block;
+}
+
+#brown-box{
+    margin: 6px;
+    height: 110px;
+    width: 110px;
+    border: 1.5px solid 	#000000;
+    background-color: #A22F2E;
+    display: inline-block;
+}
+
+#blue-circle{
+    padding: 20px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1.5px solid 	#000000;
+    background-color:#0a3ffc ;
+}
+
+#fish-tank-text{
+    color: rgb(245, 243, 243);
+    text-align: center;
+}
+
+#goldfish{
+    margin-left: 5px;
+    height:40px;
+}
