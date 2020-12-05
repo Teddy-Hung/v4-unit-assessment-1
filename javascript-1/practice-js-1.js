@@ -69,7 +69,7 @@ let colorCopy = faveColors.slice()
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-colorCopy.push('rainbow bruh')
+colorCopy.push('brown')
 
 //////////////////PROBLEM 10////////////////////
 /*
